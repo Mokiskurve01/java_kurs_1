@@ -14,7 +14,7 @@ public class Aufgabe_5 extends JPanel {
     }
 
     public Aufgabe_5() {
-        this.setBackground(Color.RED);
+        this.setBackground(Color.BLUE);
         this.setLayout(new FlowLayout());
         JLabel label = new JLabel("Einstellung");
         JPanel einstellungPanel = new JPanel();
