@@ -1,4 +1,4 @@
-package java_kurs_1;
+package aufgaben;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package java_kurs_1;
+package aufgaben;
 
 public class Aufgabe_2 {
     public static void main(String[] args) {
