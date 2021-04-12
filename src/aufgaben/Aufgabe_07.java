@@ -13,13 +13,13 @@ import javax.swing.*;
  * von StandardAnwendung ableiten.
  */
 
-public class Aufgabe_7 extends StandardAnwendung {
+public class Aufgabe_07 extends StandardAnwendung {
 
     public static void main(String[] args) {
         starteAnwendung();
     }
 
-    public Aufgabe_7() {
+    public Aufgabe_07() {
         super("Aufgabe 7", 200, 150);
         JLabel label = new JLabel("Reiseziel");
         this.add(label);

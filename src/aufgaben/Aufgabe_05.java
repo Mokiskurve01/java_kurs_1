@@ -3,17 +3,17 @@ package aufgaben;
 import javax.swing.*;
 import java.awt.*;
 
-public class Aufgabe_5 extends JPanel {
+public class Aufgabe_05 extends JPanel {
     public static void main(String[] args) {
         JFrame fenster = new JFrame("Aufgabe_5");
         fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fenster.setSize(320, 400);
-        Aufgabe_5 panel = new Aufgabe_5();
+        Aufgabe_05 panel = new Aufgabe_05();
         fenster.add(panel);
         fenster.setVisible(true);
     }
 
-    public Aufgabe_5() {
+    public Aufgabe_05() {
         this.setBackground(Color.BLUE);
         this.setLayout(new FlowLayout());
         JLabel label = new JLabel("Einstellung");

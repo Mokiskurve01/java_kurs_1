@@ -1,6 +1,6 @@
 package aufgaben;
 
-public class Aufgabe_2 {
+public class Aufgabe_02 {
     public static void main(String[] args) {
         System.out.println("Hallo"); // fügt die main-Methode ein.
         System.out.print("wie \ngeht \nes");

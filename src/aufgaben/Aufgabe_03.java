@@ -3,7 +3,7 @@ package aufgaben;
 import javax.swing.*;
 import java.awt.*;
 
-public class Aufgabe_3 {
+public class Aufgabe_03 {
     public static void main(String[] args) {
         JFrame fenster = new JFrame("Aufgabe 3");
         fenster.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

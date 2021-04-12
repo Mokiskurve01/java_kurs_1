@@ -25,12 +25,12 @@ import tools.StandardAnwendung;
 
 import javax.swing.*;
 
-public class Aufgabe_8 extends StandardAnwendung {
+public class Aufgabe_08 extends StandardAnwendung {
     public static void main(String[] args) {
         starteAnwendung();
     }
 
-    public Aufgabe_8() {
+    public Aufgabe_08() {
         super("Aufgabe 8", 300, 150);
         JLabel label = new JLabel("Name");
         this.add(label);

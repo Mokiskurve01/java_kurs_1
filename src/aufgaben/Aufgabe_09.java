@@ -20,12 +20,12 @@ import tools.StandardAnwendung;
 import javax.swing.*;
 import java.awt.*;
 
-public class Aufgabe_9 extends StandardAnwendung {
+public class Aufgabe_09 extends StandardAnwendung {
     public static void main(String[] args) {
         starteAnwendung();
     }
 
-    public Aufgabe_9() {
+    public Aufgabe_09() {
         super("Aufgabe 9 ", 300, 200);
         this.setLayout(new GridLayout(4, 3));
         for (int i = 1; i <= 9; i++) {
