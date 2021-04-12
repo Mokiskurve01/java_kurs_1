@@ -34,13 +34,8 @@ public class Aufgabe_8 extends StandardAnwendung {
         super("Aufgabe 8", 300, 150);
         JLabel label = new JLabel("Name");
         this.add(label);
-        JTextField eingabeFeld = new JTextField(12);
-        this.add(eingabeFeld);
-        JCheckBox checkBox = new JCheckBox("Bitte senden Sie mir Informationen zu");
-        this.add(checkBox);
-        JButton button = new JButton("Anfrage abschicken");
-        this.add(button);
+        this.add(new JTextField(12));
+        this.add(new JCheckBox("Bitte senden Sie mir Informationen zu"));
+        this.add(new JButton("Anfrage abschicken"));
     }
-
-
 }

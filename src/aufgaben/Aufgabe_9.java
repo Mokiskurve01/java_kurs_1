@@ -25,7 +25,6 @@ public class Aufgabe_9 extends StandardAnwendung {
         starteAnwendung();
     }
 
-
     public Aufgabe_9() {
         super("Aufgabe 9 ", 300, 200);
         this.setLayout(new GridLayout(4, 3));
@@ -33,15 +32,12 @@ public class Aufgabe_9 extends StandardAnwendung {
             JButton button = new JButton("" + i);
             this.add(button);
         }
-        JButton button = new JButton("*");
-        this.add(button);
-        button = new JButton("0");
-        this.add(button);
-        button = new JButton("#");
-        this.add(button);
+
+        this.add(new JButton("*"));
+        this.add(new JButton("0"));
+        this.add(new JButton("#"));
         this.fenster.pack();//Das Fenster wird jetzt auf die minimale Größe reduziert. Der abschließende Aufruf
         this.fenster.setResizable(false);//verhindert, dass die Größe vom Anwender verändert wird
-
     }
 }
 
