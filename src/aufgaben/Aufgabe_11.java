@@ -13,6 +13,6 @@ public class Aufgabe_11 extends StandardAnwendung {
         super("Aufgabe 11", 300, 150);
         JButton knopf = new JButton("Nicht Klicken");
         this.add(knopf);
-        knopf.addActionListener(new Aufgabe_11_KlickReaktion());
+        knopf.addActionListener(new KlickReaktion());
     }
 }

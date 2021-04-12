@@ -12,7 +12,8 @@ public class KlickKnopf extends JButton  implements ActionListener{
         this.addActionListener(this);
     }
     public void actionPerformed(ActionEvent e){
-        JOptionPane.showMessageDialog( this, "Das war falsch", "FEHLER", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog( this,
+                "Das war falsch", "FEHLER", JOptionPane.ERROR_MESSAGE);
 
     }
 }

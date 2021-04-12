@@ -13,7 +13,7 @@ public class ZufallsFarbKnopf extends JButton implements ActionListener {
     private Random zufall;
 
     public ZufallsFarbKnopf(JPanel panel) {
-        super("Zuf�llige Farbe");
+        super("Zufaellige Farbe");
         this.panel = panel;
         this.zufall = new Random();
         this.addActionListener(this);
@@ -21,10 +21,10 @@ public class ZufallsFarbKnopf extends JButton implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent arg0) {
-        int r=zufall.nextInt(128)+128;
-        int g=zufall.nextInt(128)+128;
-        int b=zufall.nextInt(128)+128;
-        panel.setBackground(new Color(r,g,b));
+        int r = zufall.nextInt(128) + 128;
+        int g = zufall.nextInt(128) + 128;
+        int b = zufall.nextInt(128) + 128;
+        panel.setBackground(new Color(r, g, b));
     }
 }
 
