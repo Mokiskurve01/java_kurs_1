@@ -11,7 +11,7 @@ public class Taschenrechner extends StandardAnwendung {
     }
 
     public Taschenrechner() {
-        super("Taschenrechner", 450, 250);
+        super("Taschenrechner", 450, 450);
         this.setLayout(new BorderLayout());
         JTextField anzeige = new JTextField();
         this.add(anzeige, BorderLayout.NORTH);

@@ -17,7 +17,7 @@ public class Aufgabe_16 extends StandardAnwendung implements MouseMotionListener
     private PlaySymbol play = new PlaySymbol();
 
     public Aufgabe_16() {
-        super("Aufgabe 16", 600, 400);
+        super("Aufgabe 16", 600, 600);
         this.setBackground(Color.RED);
         this.addMouseMotionListener(this);
     }

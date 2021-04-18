@@ -7,12 +7,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
 
-public class Aufgabe_13 extends StandardAnwendung {
+public class Aufgabe_13_Background extends StandardAnwendung {
     public static void main(String[] args) {
         starteAnwendung();
     }
 
-    public Aufgabe_13() {
+    public Aufgabe_13_Background() {
         super("Aufgabe 13", 400 , 200);
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
