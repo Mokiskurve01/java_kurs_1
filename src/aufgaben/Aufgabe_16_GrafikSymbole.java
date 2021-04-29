@@ -8,7 +8,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
 
 
-public class Aufgabe_16 extends StandardAnwendung implements MouseMotionListener {
+public class Aufgabe_16_GrafikSymbole extends StandardAnwendung implements MouseMotionListener {
     public static void main(String[] args) {
         starteAnwendung();
     }
@@ -16,7 +16,7 @@ public class Aufgabe_16 extends StandardAnwendung implements MouseMotionListener
     private int xPos = 10, yPos = 10;
     private PlaySymbol play = new PlaySymbol();
 
-    public Aufgabe_16() {
+    public Aufgabe_16_GrafikSymbole() {
         super("Aufgabe 16", 600, 600);
         this.setBackground(Color.RED);
         this.addMouseMotionListener(this);
