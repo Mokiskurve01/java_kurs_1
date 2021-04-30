@@ -25,8 +25,8 @@ public class GehZurMausFigur extends Rectangle2D.Double implements MouseListener
     }
 
     public void bewege() {
-        this.x = this.x+(zielPunkt.getX()-this.x)/10;
-        this.y = this.y+(zielPunkt.getY()-this.y)/10;
+        this.x = this.x+(zielPunkt.getX()-this.x-(this.width/2))/10;
+        this.y = this.y+(zielPunkt.getY()-this.y-(this.height/2))/10;
     }
 
     @Override
