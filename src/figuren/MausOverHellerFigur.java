@@ -1,6 +1,6 @@
 package figuren;
 
-/*import java.awt.Color;
+import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Point;
 
@@ -10,8 +10,8 @@ public class MausOverHellerFigur extends SpielFigur {
 
     private Color farbeHell, farbeDunkel;
 
-    public MausOverHellerFigur(double xc, double yc, Color farbe, Spiel spiel) {
-        super(xc, yc, 40, 50, spiel);
+    public MausOverHellerFigur(double xC, double yC, Color farbe, Spiel spiel) {
+        super(xC, yC, 40, 40, spiel);
         this.setBewegung(1, 0);
         this.farbeDunkel = farbe.darker();
         this.farbeHell = farbe.brighter().brighter();
@@ -30,5 +30,3 @@ public class MausOverHellerFigur extends SpielFigur {
     }
 
 }
-
- */
